@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Nyan Me Hard</title>
+</head>
+<body>
+	</LOGO/>
+	<img src="/resources/img/logo2.png" width="250" height="113" /> 
+	
+	<nav>
+		<ul>
+			<li style="background-color:#ffffff"><a href="nyan.html">Nyan</a></li>
+			<li style="background-color:#ffffff"><a href="more.html">More</a></li>
+		</ul>
+	</nav>
+	<audio id = "nyan" loop>
+		<source src="Nyan.mp3" type="audio/mpeg">
+    </audio>
+	<article>
+		<button onmouseover="playVid();nyan.play();"onmouseout="pauseVid();nyan.pause(); "type="button" >Fight me<br>IRL</button>		
+	</article>	
+	<div id = "Copyright">
+		<p>&copy PestoSwagWare<br>2014</p>
+	</div>
+	<video hidden id="video1"class="backgroundvid" src="nyan.mp4 "loop>
+
+	<script language="JavaScript">
+		var nyan=document.getElementById("nyan"); 
+		
+		function playnyan()
+		{ 
+			nyan.play(); 
+		} 
+
+		function pausenyan()
+		{ 
+			nyan.pause(); 
+		} 
+		var myVideo=document.getElementById("video1"); 
+
+		function playVid()
+		{ 
+			myVideo.removeAttribute("hidden");
+			myVideo.play(); 
+		} 
+
+		function pauseVid()
+		{ 
+			
+			myVideo.pause(); 
+		} 
+	</script>
+
+		<br>
+
+
+</body>
+</html>

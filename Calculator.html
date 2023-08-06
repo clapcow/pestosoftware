@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Calculator</title>
+</head>
+<body>
+	</LOGO/>
+	<img src="/resources/img/logo2.png" width="250" height="113" /> 
+	<div id = "Copyright">
+		<p>&copy PestoSwagWare<br>2014</p>
+	</div>
+	<nav>
+		<ul>
+			<li style="background-color:#ffffff"><a href="Calculator.html">Calculator</a></li>
+			<li style="background-color:#ffffff"><a href="more.html">More</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+		<div id="cal">
+			<input size="9" type="text" id="TEXTBOX_ID">	
+			<button  onclick="textBox.value = ''"id="AC">AC</button>
+			<br>
+			<button  onclick="textBox.value += '1'"id="1">1</button>
+			<button  onclick="textBox.value += '2'"id="2">2</button>
+			<button  onclick="textBox.value += '3'"id="3">3</button>
+			<button  onclick="textBox.value += '4'"id="4">4</button>
+			<button  onclick="textBox.value += '5'"id="5">5</button>
+			<button  onclick="textBox.value += '6'"id="6">6</button>
+			<button  onclick="textBox.value += '7'" id="7">7</button>
+			<button  onclick="textBox.value += '8'"id="8">8</button>
+			<button  onclick="textBox.value += '9'"id="9">9</button>
+			<button  onclick="textBox.value += '0'"id="0">0</button>
+			<br>
+			<button  onclick="textBox.value += '+'"id="+">+</button>
+			<button  onclick="textBox.value += '-'"id="-">-</button>
+			<button  onclick="textBox.value += '/'"id="/">/</button>
+			<button  onclick="textBox.value += '*'"id="*">*</button>
+			<button  onclick="anwser();"id="=">=</button>
+		</div>
+	</article>
+	<script type="text/javascript">
+		var number;
+		;
+		var phrase =new Array ("Idk","Tell me", "Nyan","Error","NO");
+		var textBox = document.getElementById('TEXTBOX_ID');
+		
+		function anwser(){
+			number = Math.floor((Math.random()*4)+0);
+			textBox.value = phrase[number]
+		}
+</script>
+</body>
+</html>

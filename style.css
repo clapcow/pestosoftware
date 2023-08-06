@@ -1,0 +1,81 @@
+body{
+
+	background-image:url(resources/img/sprinkles.png);
+	
+	background-color:#E9EDF7;
+}
+article{
+	text-align:center;
+	margin: 0 auto;
+	padding: 30px;
+
+}
+#Copyright{
+
+	color: #000;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	
+    
+}
+#cal{
+width:100px;
+height:230px;
+background-color:#07a4d1;
+}
+nav{
+	text-align:center;
+	margin: 0 auto;
+	text-decoration:none;
+	height:50px;
+	width:1080px;
+}
+nav li{
+
+	font:bold 18px Georgia, serif;
+	padding:10px;
+	list-style-type: none;
+	display: inline;
+	border:solid 1px black;
+	float: center;
+}
+
+#center{
+	text-align:center;
+}
+#imagerepeat
+{
+	margin: 0 auto;
+	width:1100;
+	height:200;
+	background-image:url('/resources/img/sniper.gif');
+	background-repeat:repeat-x;
+}
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1000;
+}
+.backgroundvid {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1000;
+}
+.hiden{
+	display:none;
+}
+#button{
+padding:20px;
+}
